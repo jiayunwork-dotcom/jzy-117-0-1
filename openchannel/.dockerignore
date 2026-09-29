@@ -1,0 +1,13 @@
+# 构建产物与本地缓存，不进入构建上下文
+/out/
+/openchannel
+*.test
+*.out
+
+# Go 工具链缓存
+/.git/
+.gitignore
+
+# 编辑器/系统杂项
+*.swp
+.DS_Store
